@@ -1,0 +1,10 @@
+.navbar {
+    background: purple;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a {
+    color: white;
+    padding-left: 20px;
+}
