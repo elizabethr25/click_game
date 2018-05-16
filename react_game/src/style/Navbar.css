@@ -1,10 +1,13 @@
 .navbar {
+    min-height: 70px;
+    width: 100%;
+    position: fixed;
     background: purple;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
-a {
+.navbar li {
+    display: inline-block;
+    text-align: center;
     color: white;
-    padding-left: 20px;
 }
+
