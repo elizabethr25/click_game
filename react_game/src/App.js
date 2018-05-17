@@ -1,18 +1,13 @@
 import React, { Component } from "react";
 import Navbar from "./components/Navbar";
 import Card from "../src/components/common/Card";
+import Container from "../src/Container";
+import Row from "../src/Row"
+import Column from "../src/Column";
 import Wrapper from "../src/components/Wrapper";
 import Title from "../src/components/Title";
 import friends from "./friends.json";
-
-// const App = () => (
-//     <div>
-//         <Navbar />
-//         <Jumbotron />
-//     </div>
-// );
-
-//   Map over this.state.friends and render a FriendCard component for each friend object
+import "../src/index"
 
 function shuffleFriends(array) {
   for (let i = array.length - 1; i > 0; i--) {
